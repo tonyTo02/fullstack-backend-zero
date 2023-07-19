@@ -1,0 +1,27 @@
+{
+  "name": "0.-backendrestfulservernode.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonyTo02/fullstack-backend-zero.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonyTo02/fullstack-backend-zero/issues"
+  },
+  "homepage": "https://github.com/tonyTo02/fullstack-backend-zero#readme",
+  "dependencies": {
+    "dotenv": "16.0.3",
+    "ejs": "3.1.8",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
